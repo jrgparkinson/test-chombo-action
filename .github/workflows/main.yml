@@ -1,0 +1,10 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Test Chombo workflow
+    steps:
+    - uses: actions/checkout@v2
+    - id: foo
+      uses: jrgparkinson/chombo-action@v1

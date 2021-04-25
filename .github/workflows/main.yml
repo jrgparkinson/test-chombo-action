@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: foo
-      uses: jrgparkinson/chombo-action@v1.4
+      uses: jrgparkinson/chombo-action@v1
       with:
         compile_opts: 'DIM=3'
 

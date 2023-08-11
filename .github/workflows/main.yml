@@ -10,6 +10,9 @@ jobs:
       uses: jrgparkinson/chombo-action@v1.11
       with:
         compile_opts: 'DIM=3'
+        chombo_tag: c00e7b6214dccce2690c9c96940b9d915a14a26b
+
+
 
     - name: Check Chombo install
       run: echo $CHOMBO_HOME
